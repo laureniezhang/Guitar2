@@ -1,0 +1,17 @@
+Package: Guitar2
+Type: Package
+Title: Guitar2
+Version: 0.99.1
+Date: 2017-09-26
+Author: Lin Zhang
+Maintainer: Lin Zhang <lin.zhang@cumt.edu.cn>
+Description: The package is designed for visualization 
+	of RNA-related genomic features with respect to the landmarks of RNA transcripts, i.e.,
+	transcription starting site, start codon, stop codon and transcription ending site. 
+License: GPL-2
+Depends: Rsamtools, GenomicFeatures, rtracklayer, GenomicAlignments,
+        GenomicRanges, ggplot2, grid, IRanges
+biocViews: Sequencing, SplicedAlignment, Alignment, DataImport, RNASeq,
+        MethylSeq, QualityControl, Transcription, Coverage
+NeedsCompilation: no
+Packaged: 2017-09-29 06:51:32 UTC; j
